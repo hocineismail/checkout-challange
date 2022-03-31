@@ -1,4 +1,4 @@
-import { GlobalDiscount, ProductDiscount } from "../promotion/discount";
+import { GlobalDiscount, ProductDiscount } from "../app/promotion/discount";
 
  
 describe("Promotional Discount products by amount Tests", () => {
