@@ -1,0 +1,19 @@
+{
+  "name": "checkout-challenge",
+  "version": "1.0.0",
+  "description": "Implement a checkout system that can scan items in any order and apply certain promotional",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/app/index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "ismail hocine",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  }
+}
